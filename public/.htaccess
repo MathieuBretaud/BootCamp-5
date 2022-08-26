@@ -1,0 +1,18 @@
+# Fichier de configuration du serveur Web Apache
+
+# On active le moteur de réécriture
+RewriteEngine On
+
+# dynamically setup base URI
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+RewriteRule ^(.*) - [E=BASE_URI:%1]
+
+# redirect every request to index.php
+# and give the relative URL in "_url" GET param
+
+# Si la requête ne correspond à aucun dossier existant (directory)
+RewriteCond %{REQUEST_FILENAME} !-d
+# Si la requête ne correspond à aucun fichier existant (file)
+RewriteCond %{REQUEST_FILENAME} !-f
+# Renvoie sur index.php (plutôt que 404)
+RewriteRule ^(.*)$ index.php [QSA,L]

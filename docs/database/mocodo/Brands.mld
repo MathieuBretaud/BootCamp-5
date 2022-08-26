@@ -1,0 +1,16 @@
+%%mocodo
+:::
+PRODUCT: product name, description, picture, price, rate, status, #brand name->BRAND->brand name, #category name->CATEGORY->category name, #type name->TYPE->type name
+:::
+
+
+:
+BRAND: brand name, footer order
+:::
+TYPE: type name, footer order
+:
+
+
+:::
+CATEGORY: category name, subtitle, picture, home order
+:::

@@ -1,0 +1,11 @@
+made by, 11 PRODUCT, 0N BRAND
+PRODUCT: product name, description, picture, price, rate, status
+is type of, 11 PRODUCT, 0N TYPE
+
+BRAND: brand name, footer order
+belongs to, 01 PRODUCT, 0N CATEGORY
+TYPE: type name, footer order
+
+:
+CATEGORY: category name, subtitle, picture, home order
+:

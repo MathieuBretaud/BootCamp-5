@@ -1,0 +1,8 @@
+# Fichier de travail O'clock
+import_trello.php
+
+# Le dossier vendor/ doit être ignoré
+/vendor/
+
+# Notre config locale est exclue du repo git (et donc de Github)
+/app/config.ini

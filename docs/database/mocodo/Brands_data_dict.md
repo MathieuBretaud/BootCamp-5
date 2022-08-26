@@ -1,0 +1,14 @@
+- product name
+- description
+- picture
+- price
+- rate
+- status
+- brand name
+- footer order
+- type name
+- footer order
+- category name
+- subtitle
+- picture
+- home order
